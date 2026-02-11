@@ -1,0 +1,64 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #eef2f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.main-container {
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 300px;
+}
+
+.controls {
+  margin: 20px 0;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+/*
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: transform 0.1s;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+.primary-btn {
+  background-color: #0078d4;
+  color: white;
+}
+
+.secondary-btn {
+  background-color: #ddd;
+  color: #333;
+}
+  */
+
+/* This class is for JS to toggle later 
+.active-mode {
+  background-color: #dff6dd;
+  border: 2px solid #28a745;
+  color: #155724;
+}
+
+#display-area {
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px dashed #ccc;
+  color: #666;
+}
+*/
