@@ -1,0 +1,26 @@
+<!doctype html>
+
+<html>
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>A second program in JavaScript</title>
+    <script type="text/javaScript">
+      var total,gradeCounter,grade,gradeValue,average;
+      total = 0
+      gradeCounter = 1
+      while (gradeCounter <= 10) {
+        grade = window.prompt("Vnesi ocenka (5-10):");
+        gradeValue = parseInt(grade)
+        total += gradeValue
+        gradeCounter += 1
+      }
+      average = total / 10;
+      document.writeln("<h2> Class average is " + average + "</h2>");
+    </script>
+  </head>
+  <body>
+    <p>Yoo ,What is up!</p>
+    <p>kiksi e mn jak programer hhh</p>
+  </body>
+</html>
